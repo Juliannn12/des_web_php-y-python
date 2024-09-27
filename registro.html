@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Gatos - Cuidado de Gatos</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Registro de Gatos</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a> | 
+        <a href="salud.html">Salud</a> |
+        <a href="juguetes.html">Juguetes</a> |
+        <a href="registro.html">Registro</a>
+    </nav>
+
+    <section>
+        <form action="conexion.php" method="post">
+            <label for="nombre_gato">Nombre del Gato:</label>
+            <input type="text" id="nombre_gato" name="nombre_gato" required>
+            
+            <label for="responsable">Responsable:</label>
+            <input type="text" id="responsable" name="responsable" required>
+            
+            <input type="submit" value="Registrar">
+        </form>
+    </section>
+
+</body>
+</html>
